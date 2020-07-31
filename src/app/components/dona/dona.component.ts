@@ -12,6 +12,7 @@ export class DonaComponent {
   @Input() labels: string[] = ['Ventas', 'Sueldos', 'Comisión'];
   @Input() data: number[] = [];
   @Input() title: string = 'Sin titulo';
+  
   // @Output() title: EventEmitter<number> = new EventEmitter();
 
 
